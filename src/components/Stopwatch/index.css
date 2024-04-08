@@ -1,0 +1,50 @@
+/* Write CSS here */
+.app-container {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/stopwatch-sm-bg.png');
+  background-size: cover;
+  height: 100vh;
+  padding-left: 150px;
+  padding-top: 120px;
+}
+.stopwatch-container {
+}
+.heading {
+  font-size: 99px;
+  font-family: 'Roboto';
+  font-weight: 400;
+}
+.timer-container {
+  background-color: #ffffff;
+  box-shadow: 0px 4px 16px 0px #bfbfbf;
+  height: 30vh;
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.timer {
+  display: flex;
+}
+.timer-clock {
+  height: 40px;
+  width: 50px;
+  margin-top: 20px;
+}
+.timer-label {
+  font-size: 25px;
+  font-family: 'Roboto';
+  font-weight: 400;
+  padding-left: 10px;
+}
+.timer-count {
+  font-size: 45px;
+  font-family: 'Roboto';
+  font-weight: 400;
+}
+
+.timer-buttons {
+  margin-top: 20px;
+}
+.timer-btn {
+  margin: 30px;
+}
